@@ -1,0 +1,189 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "username": "user123",
+        "email": "user123@example.com",
+        "isAdmin": true
+      },
+      {
+        "id": 2,
+        "username": "nonadminuser",
+        "email": "nonadmin@example.com",
+        "isAdmin": false
+      }
+    ],
+    "artist": [
+      {
+        "id": 1,
+        "name": "Jordan Xx"
+      },
+      {
+        "id": 2,
+        "name": "Chuck Indigo"
+      },
+      {
+        "id": 3,
+        "name": "Ron Obasi"
+      },
+      {
+        "id": 4,
+        "name": "Bryant Taylorr"
+      },
+      {
+        "id": 5,
+        "name": "Jxdece"
+      },
+      {
+        "id": 6,
+        "name": "Yours Truly Jai"
+      },
+      {
+        "id": 7,
+        "name": "RyAnne"
+      },
+      {
+        "id": 8,
+        "name": "Brain Brown"
+      },
+      {
+        "id": 9,
+        "name": "Tim Gent"
+      },
+      {
+        "id": 10,
+        "name": "Reaux Marquez"
+      }
+    ],
+    "genre": [
+      {
+        "id": 1,
+        "name": "Hip-hop"
+      },
+      {
+        "id": 2,
+        "name": "R&B"
+      }
+    ],
+    "album": [
+      {
+        "id": 1,
+        "name": "Surfing: Highs N Lows",
+        "genreId": 1
+      },
+      {
+        "id": 2,
+        "name": "Sun Tapes",
+        "genreId": 1
+      },
+      {
+        "id": 3,
+        "name": "No Moor Bad Days",
+        "genreId": 1
+      },
+      {
+        "id": 4,
+        "name": "Monarch",
+        "genreId": 2
+      },
+      {
+        "id": 5,
+        "name": "From RyAnne, With Love",
+        "genreId": 2
+      },
+      {
+        "id": 6,
+        "name": "No Roads",
+        "genreId": 1
+      },
+      {
+        "id": 7,
+        "name": "Journey",
+        "genreId": 1
+      },
+      {
+        "id": 8,
+        "name": "Rare",
+        "genreId": 2
+      },
+      {
+        "id": 9,
+        "name": "Sya",
+        "genreId": 2
+      },
+      {
+        "id": 10,
+        "name": "Life Away From Home",
+        "genreId": 1
+      }
+    ],
+    "song": [
+      {
+        "id": 1,
+        "name": "Roses",
+        "genreId": 1,
+        "albumId": 1
+      },
+      {
+        "id": 2,
+        "name": "The Freemans",
+        "genreId": 1,
+        "albumId": 2
+      },
+      {
+        "id": 3,
+        "name": "Ain't Free",
+        "genreId": 1,
+        "albumId": 3
+      },
+      {
+        "id": 4,
+        "name": "In Too Deep",
+        "genreId": 2,
+        "albumId": 4
+      },
+      {
+        "id": 5,
+        "name": "I Miss You",
+        "genreId": 2,
+        "albumId": 5
+      },
+      {
+        "id": 6,
+        "name": "A.A.S.B.",
+        "genreId": 1,
+        "albumId": 6
+      },
+      {
+        "id": 7,
+        "name": "A Cashville Story",
+        "genreId": 1,
+        "albumId": 7
+      },
+      {
+        "id": 8,
+        "name": "Brakes",
+        "genreId": 2,
+        "albumId": 8
+      },
+      {
+        "id": 9,
+        "name": "Blind Letters",
+        "genreId": 1,
+        "albumId": 9
+      },
+      {
+        "id": 10,
+        "name": "The Lingo",
+        "genreId": 2,
+        "albumId": 10
+      }
+    ],
+    "favorite": [
+      {
+        "id": 1,
+        "userId": 1,
+        "artistId": 1
+      }
+    ]
+}
